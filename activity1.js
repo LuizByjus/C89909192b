@@ -4,7 +4,7 @@ score = 0;
 function updateScore()
 {
 	score = score + 1;
-	document.getElementById("score").innerHTML = "score: " + score;
+	document.getElementById("score").innerHTML = "Pontuação : " + score;
 }
 
 function saveScore()
