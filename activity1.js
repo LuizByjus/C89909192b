@@ -1,10 +1,10 @@
 
-Pontuação = 0;
+score = 0;
 
 function updateScore()
 {
 	score = score + 1;
-	document.getElementById("score").innerHTML = "Score: " + score;
+	document.getElementById("score").innerHTML = "Pontuação: " + score;
 }
 
 function saveScore()
