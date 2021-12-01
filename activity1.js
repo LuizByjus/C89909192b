@@ -3,13 +3,13 @@ score = 0;
 
 function updateScore()
 {
-	Pontuação = Pontuação + 1;
+	score = score + 1;
 	document.getElementById("Pontuação").innerHTML = "Pontuação : " + score;
 }
 
 function saveScore()
 {
-    localStorage.setItem("Pontuação", score);
+    localStorage.setItem("score", score);
 }
 
 
