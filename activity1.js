@@ -1,15 +1,15 @@
 
-score = 0;
+Pontuação = 0;
 
 function updateScore()
 {
-	score = score + 1;
-	document.getElementById("score").innerHTML = "Pontuação : " + score;
+	Pontuação = Pontuação + 1;
+	document.getElementById("Pontuação").innerHTML = "Pontuação : " + score;
 }
 
 function saveScore()
 {
-    localStorage.setItem("score", score);
+    localStorage.setItem("Pontuação", score);
 }
 
 
