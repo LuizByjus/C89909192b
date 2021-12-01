@@ -1,5 +1,5 @@
 
-Pontuação = 0;
+score = 0;
 
 function updateScore()
 {
